@@ -8,27 +8,41 @@ namespace Modul2_HW1
 {
     class Result
     {
-        bool status1 = true;
-        bool status2 = false;
+        bool status;
         string errorMessage = "I broke a logic";
+        string startMessage = "Start method";
+        string warningMessage = "Skipped logic in method";
 
         public Result()
         {
+
         }
 
-        public bool GetStatusTrue()
+        public bool StatusTrue
         {
-            return status1;
+            get { return status; }
+            set { status = true; }
         }
 
-        public bool GetStatusFalse()
+        public bool StatusFalse
         {
-            return status2;
+            get { return status; }
+            set { status = false; }
         }
 
-        public string ErrorMessage()
+        public string Error
         {
-            return errorMessage;
+            get { return errorMessage; }
+        }
+
+        public string Warning
+        {
+            get { return warningMessage; }
+        }
+
+        public string Start
+        {
+            get { return startMessage; }
         }
     }
 }

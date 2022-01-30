@@ -6,23 +6,25 @@ using System.Threading.Tasks;
 
 namespace Modul2_HW1
 {
-    class Actions:Result
+    class Actions
     {
+        Result result = new Result();
         public bool Info()
         {
-            LoggerSingleton.Instance.LogMessage("Info", "Start method");
-            return GetStatusTrue();
+            LoggerSingleton.Instance.LogMessage("Info", result.Start);
+            return result.StatusTrue; 
         }
 
         public bool Warning()
         {
-            LoggerSingleton.Instance.LogMessage("Warning", "Skipped logic in method");
-            return GetStatusTrue();
+            LoggerSingleton.Instance.LogMessage("Warning", result.Warning);
+            return result.StatusTrue;
         }
 
         public bool Error()
         {
-            return GetStatusFalse();
+            LoggerSingleton.Instance.LogMessage("Error", $"Action failed by a reason: {result.Error}");
+            return result.StatusFalse ;
         }
     }
 }

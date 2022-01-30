@@ -1,101 +1,76 @@
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Info: Start method
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Warning: Skipped logic in method
+31.01.2022 00:37:06: Error: Action failed by a reason: I broke a logic
+31.01.2022 00:37:06: Info: Start met
