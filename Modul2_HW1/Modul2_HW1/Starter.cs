@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Modul2_HW1
 {
-    class Starter: Actions
+    class Starter
     {
         Actions[] actionsArray = new Actions[3];
         Actions actions = new Actions();
