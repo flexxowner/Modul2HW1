@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace Modul2_HW1
 {
-    class Starter
+    class Starter: Actions
     {
         Actions[] actionsArray = new Actions[3];
         Actions actions = new Actions();
+        Result result = new Result();
         Random random = new Random();
         public void Run()
         {
@@ -29,6 +30,10 @@ namespace Modul2_HW1
                 else if (mIndex == 2)
                 {
                     actions.Error();
+                    if(result.GetStatus == false)
+                    {
+                        LoggerSingleton.Instance.LogMessage("Error", $"Action failed by a reason: {result.ErrorMessage = "I broke a logic"}");
+                    }
                 }
 
         }

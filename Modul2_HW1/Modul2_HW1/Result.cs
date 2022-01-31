@@ -10,33 +10,21 @@ namespace Modul2_HW1
     {
         bool Status;
         string errorMessage;
-        string startMessage;
-        string warningMessage;
-        public Result(bool Status)
+
+        public Result()
         {
-            this.Status = Status;
         }
-        public Result(string errorMessage = "I broke a logic", string startMessage = "Start method", string warningMessage = "Skipped logic in method")
+
+        public Result(string errorMessage, bool Status)
         {
             this.errorMessage = errorMessage;
-            this.startMessage = startMessage;
-            this.warningMessage = warningMessage;
+            this.Status = Status;
         }
 
-
-        public string Error
+        public string ErrorMessage
         {
             get { return errorMessage; }
-        }
-
-        public string Warning
-        {
-            get { return warningMessage; }
-        }
-
-        public string Start
-        {
-            get { return startMessage; }
+            set { errorMessage = value; }   
         }
         
         public bool GetStatus

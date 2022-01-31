@@ -8,28 +8,26 @@ namespace Modul2_HW1
 {
     class Actions
     {
+        Result result = new Result();
         public Result Info()
         {
-            var result1 = new Result();
-            LoggerSingleton.Instance.LogMessage("Info", result1.Start);
-            result1.GetStatus = true;
-            return result1; 
+            LoggerSingleton.Instance.LogMessage("Info", result.ErrorMessage = "Start method:");
+            result.GetStatus = true;
+            return result; 
         }
 
         public Result Warning()
         {
-            var result2 = new Result();
-            LoggerSingleton.Instance.LogMessage("Warning", result2.Warning);
-            result2.GetStatus = true;
-            return result2;
+            LoggerSingleton.Instance.LogMessage("Warning", result.ErrorMessage = "Skipped logic in method:");
+            result.GetStatus = true;
+            return result;
         }
 
         public Result Error()
         {
-            var result3 = new Result();
-            LoggerSingleton.Instance.LogMessage("Error", $"Action failed by a reason: {result3.Error}");
-            result3.GetStatus = false;
-            return result3 ;
+            var result = new Result();
+            result.GetStatus = false;
+            return result ;
         }
     }
 }
