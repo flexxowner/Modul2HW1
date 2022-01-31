@@ -8,23 +8,28 @@ namespace Modul2_HW1
 {
     class Actions
     {
-        Result result = new Result();
-        public bool Info()
+        public Result Info()
         {
-            LoggerSingleton.Instance.LogMessage("Info", result.Start);
-            return result.StatusTrue; 
+            var result1 = new Result();
+            LoggerSingleton.Instance.LogMessage("Info", result1.Start);
+            result1.GetStatus = true;
+            return result1; 
         }
 
-        public bool Warning()
+        public Result Warning()
         {
-            LoggerSingleton.Instance.LogMessage("Warning", result.Warning);
-            return result.StatusTrue;
+            var result2 = new Result();
+            LoggerSingleton.Instance.LogMessage("Warning", result2.Warning);
+            result2.GetStatus = true;
+            return result2;
         }
 
-        public bool Error()
+        public Result Error()
         {
-            LoggerSingleton.Instance.LogMessage("Error", $"Action failed by a reason: {result.Error}");
-            return result.StatusFalse ;
+            var result3 = new Result();
+            LoggerSingleton.Instance.LogMessage("Error", $"Action failed by a reason: {result3.Error}");
+            result3.GetStatus = false;
+            return result3 ;
         }
     }
 }

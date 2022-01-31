@@ -8,27 +8,21 @@ namespace Modul2_HW1
 {
     class Result
     {
-        bool status;
-        string errorMessage = "I broke a logic";
-        string startMessage = "Start method";
-        string warningMessage = "Skipped logic in method";
-
-        public Result()
+        bool Status;
+        string errorMessage;
+        string startMessage;
+        string warningMessage;
+        public Result(bool Status)
         {
-
+            this.Status = Status;
+        }
+        public Result(string errorMessage = "I broke a logic", string startMessage = "Start method", string warningMessage = "Skipped logic in method")
+        {
+            this.errorMessage = errorMessage;
+            this.startMessage = startMessage;
+            this.warningMessage = warningMessage;
         }
 
-        public bool StatusTrue
-        {
-            get { return status; }
-            set { status = true; }
-        }
-
-        public bool StatusFalse
-        {
-            get { return status; }
-            set { status = false; }
-        }
 
         public string Error
         {
@@ -43,6 +37,12 @@ namespace Modul2_HW1
         public string Start
         {
             get { return startMessage; }
+        }
+        
+        public bool GetStatus
+        {
+            get { return Status; }
+            set { Status = value; }
         }
     }
 }
